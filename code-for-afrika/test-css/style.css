@@ -37,11 +37,17 @@ div {
 .header {
   background-color: rgba(132, 0, 255, 0.83) !important;
 }
-.button-volonteer {
+.volunteer-button {
   display: flex !important;
-  justify-content: align-self !important;
+  justify-content: center !important;
 }
-
+.grandfather {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-items: center !important;
+  align-items: center !important;
+}
 .partners {
   width: 80%;
   border-bottom-left-radius: 80px 80px;
