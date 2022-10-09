@@ -17,7 +17,6 @@ h1 {
 }
 .servers {
   width: 100vw;
-  border: 5px black solid;
 }
 .about-us-services {
   margin-top: 2rem;
@@ -49,18 +48,48 @@ h1 {
   justify-content: center;
   align-items: center;
   margin-top: 1rem;
+  padding: 1rem;
   margin-right: 4rem;
-  background-image: linear-gradient(175deg, #738df3, #20b136);
+  background-image: linear-gradient(45deg, #738df3, #20b136);
   color: yellow;
+}
+.linear-volunteer:hover {
+  background-image: linear-gradient(45deg, #738df37b, #1ce039a7);
 }
 .linear-volunteer {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 2rem;
 }
+
 .linear-volunteer img {
-  width: 25rem;
+  width: 30rem;
   height: 15rem;
+}
+.cummunity-update {
+  margin-bottom: 2rem;
+}
+
+.projects {
+  margin-right: 3rem;
+  color: rgb(106, 0, 255);
+}
+.project-background {
+  background-image: linear-gradient(45deg, #738df3, #20b136);
+  color: yellow;
+}
+.project-background:hover {
+  background-image: linear-gradient(45deg, #738df37b, #1ce039a7);
+  cursor: pointer;
+}
+.footer {
+  background-image: linear-gradient(45deg, #738df3, #20b136);
+}
+.footer-text {
+  color: white !important;
+}
+.text-white {
+  font-size: 3rem !important;
+  padding: 0.5rem;
 }
